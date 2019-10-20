@@ -1,0 +1,9 @@
+2019-10-20T12:15:29.117Z Error: quit
+2019-10-20T12:15:29.117Z     at Object.error (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:22:17)
+2019-10-20T12:15:29.117Z     at Object.anykey (/usr/local/lib/heroku/node_modules/cli-ux/lib/prompt.js:48:18)
+2019/10/20 12:15:29 Error: Command failed: heroku login
+    at checkExecSyncError (child_process.js:639:11)
+    at Object.execSync (child_process.js:676:15)
+    at relogin (/usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:123:28)
+    at /usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:162:18
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)

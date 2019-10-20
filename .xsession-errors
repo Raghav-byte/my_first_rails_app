@@ -138,3 +138,33 @@ Warning: failed to read path from javaldx
 (xfwm4:1200): xfwm4-WARNING **: 16:48:06.131: output size (1895x730) and logical screen size (1895x791) do not match
 
 (xfwm4:1200): xfwm4-WARNING **: 16:48:06.798: output size (1895x691) and logical screen size (1895x730) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 17:47:41.182: output size (1549x691) and logical screen size (1895x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 17:47:41.242: output size (1153x691) and logical screen size (1549x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 17:47:41.310: output size (1009x691) and logical screen size (1153x691) do not match
+
+** (xfdesktop:1208): CRITICAL **: 17:47:41.347: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1208): CRITICAL **: 17:47:41.347: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1200): xfwm4-WARNING **: 17:47:41.597: output size (816x691) and logical screen size (1009x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 17:47:41.893: output size (592x691) and logical screen size (816x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 17:47:41.942: output size (567x691) and logical screen size (592x691) do not match
+
+** (xfdesktop:1208): CRITICAL **: 17:47:42.086: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1200): xfwm4-WARNING **: 17:47:42.124: output size (569x691) and logical screen size (567x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 17:47:42.151: output size (576x691) and logical screen size (569x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 17:47:42.235: output size (609x691) and logical screen size (576x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 17:47:42.382: output size (614x691) and logical screen size (609x691) do not match
+
+** (xfdesktop:1208): CRITICAL **: 17:47:42.530: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1208): CRITICAL **: 17:47:42.531: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
