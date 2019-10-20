@@ -1,0 +1,140 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/byte/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=en_IN
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/byte
+dbus-update-activation-environment: setting USER=byte
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/byte
+dbus-update-activation-environment: setting HOME=/home/byte
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_IN:en
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=byte
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/byte/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:1189): xfce4-session-WARNING **: 15:46:32.914: xfsm_manager_load_session: Something wrong with /home/byte/.cache/sessions/xfce4-session-byte-VirtualBox:0, Does it exist? Permissions issue?
+
+(polkit-gnome-authentication-agent-1:1220): GLib-CRITICAL **: 15:46:33.379: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1220): polkit-gnome-1-WARNING **: 15:46:33.381: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+** (wrapper-2.0:1351): WARNING **: 15:46:34.627: No outputs have backlight property
+
+(wrapper-2.0:1341): GLib-GIO-CRITICAL **: 15:46:34.692: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1341): GLib-GIO-CRITICAL **: 15:46:34.693: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1341): GLib-GObject-WARNING **: 15:46:34.693: invalid (NULL) pointer instance
+
+(wrapper-2.0:1341): GLib-GObject-CRITICAL **: 15:46:34.695: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1341): Gtk-WARNING **: 15:46:34.695: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1341): Gtk-WARNING **: 15:46:34.808: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1355): Gtk-WARNING **: 15:46:34.883: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1338): Gtk-WARNING **: 15:46:34.915: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1351): Gtk-WARNING **: 15:46:34.952: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(nm-applet:1211): Gtk-WARNING **: 15:46:35.151: Can't set a parent on widget which has a parent
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+/var/lib/dpkg/lock: 
+javaldx: Could not find a Java Runtime Environment!
+Please ensure that a JVM and the package libreoffice-java-common
+is installed.
+If it is already installed then try removing ~/.libreoffice/3/user/config/javasettings_Linux_*.xml
+Warning: failed to read path from javaldx
+javaldx: Could not find a Java Runtime Environment!
+Please ensure that a JVM and the package libreoffice-java-common
+is installed.
+If it is already installed then try removing ~/.libreoffice/3/user/config/javasettings_Linux_*.xml
+Warning: failed to read path from javaldx
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:21.430: output size (983x600) and logical screen size (800x600) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:21.463: output size (983x600) and logical screen size (916x600) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:21.548: output size (1110x600) and logical screen size (916x600) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:21.565: output size (1110x600) and logical screen size (983x600) do not match
+
+** (xfdesktop:1208): CRITICAL **: 16:21:21.697: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:21.831: output size (1112x600) and logical screen size (1110x600) do not match
+
+** (xfdesktop:1208): CRITICAL **: 16:21:22.040: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1208): CRITICAL **: 16:21:22.040: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:22.116: output size (1252x600) and logical screen size (1112x600) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:22.184: output size (1257x600) and logical screen size (1252x600) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:22.327: output size (1257x600) and logical screen size (1252x600) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:22.353: output size (1259x600) and logical screen size (1252x600) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:22.389: output size (1259x600) and logical screen size (1257x600) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:26.042: output size (1259x738) and logical screen size (1259x600) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:26.203: output size (1259x766) and logical screen size (1259x738) do not match
+
+** (xfdesktop:1208): CRITICAL **: 16:21:26.339: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:27.005: output size (1259x940) and logical screen size (1259x766) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:29.636: output size (1797x940) and logical screen size (1259x940) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:30.557: output size (1881x940) and logical screen size (1797x940) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:31.030: output size (1889x940) and logical screen size (1881x940) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:31.038: output size (1889x940) and logical screen size (1884x940) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:31.213: output size (1895x940) and logical screen size (1884x940) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:31.220: output size (1895x940) and logical screen size (1889x940) do not match
+
+** (xfdesktop:1208): CRITICAL **: 16:21:31.518: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1208): CRITICAL **: 16:21:31.527: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1200): xfwm4-WARNING **: 16:21:33.446: output size (1920x950) and logical screen size (1895x940) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:23:36.152: output size (1895x815) and logical screen size (1920x950) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:23:37.387: output size (1895x791) and logical screen size (1895x815) do not match
+
+(xfce4-terminal:27680): Gdk-CRITICAL **: 16:32:33.054: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfwm4:1200): xfwm4-WARNING **: 16:48:06.131: output size (1895x730) and logical screen size (1895x791) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 16:48:06.798: output size (1895x691) and logical screen size (1895x730) do not match
