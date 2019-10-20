@@ -168,3 +168,39 @@ Warning: failed to read path from javaldx
 ** (xfdesktop:1208): CRITICAL **: 17:47:42.530: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
 
 ** (xfdesktop:1208): CRITICAL **: 17:47:42.531: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+Gtk-Message: 18:02:14.852: GtkDialog mapped without a transient parent. This is discouraged.
+
+(xfwm4:1200): xfwm4-WARNING **: 18:02:42.527: output size (1239x691) and logical screen size (614x691) do not match
+[Parent 26005, Gecko_IOThread] WARNING: pipe error (116): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+
+(xfwm4:1200): xfwm4-WARNING **: 18:17:01.238: output size (916x691) and logical screen size (1239x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 18:17:01.274: output size (915x691) and logical screen size (916x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 18:17:01.439: output size (917x691) and logical screen size (915x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 18:17:01.495: output size (923x691) and logical screen size (917x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 18:17:01.579: output size (968x691) and logical screen size (923x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 18:17:01.720: output size (1055x691) and logical screen size (968x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 18:17:01.851: output size (1074x691) and logical screen size (1055x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 18:17:01.948: output size (1077x691) and logical screen size (1074x691) do not match
+
+** (xfdesktop:1208): CRITICAL **: 18:17:02.068: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1208): CRITICAL **: 18:17:02.069: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1208): CRITICAL **: 18:17:02.245: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1208): CRITICAL **: 18:17:02.273: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1208): CRITICAL **: 18:17:02.309: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1208): CRITICAL **: 18:17:02.328: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1200): xfwm4-WARNING **: 18:17:05.008: output size (1080x691) and logical screen size (1077x691) do not match
+
+(xfwm4:1200): xfwm4-WARNING **: 18:17:05.410: output size (1105x691) and logical screen size (1080x691) do not match

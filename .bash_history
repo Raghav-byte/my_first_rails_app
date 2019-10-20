@@ -49,3 +49,50 @@ $ pwd
 /home/you/odin_on_rails/my_first_rails_app
 $ pwd
 raghav
+$ pwd
+/home/you/odin_on_rails/my_first_rails_app
+git init
+$ pwd
+rails server
+$ pwd
+rails server
+$ pwd
+/home/you/odin_on_rails/my_first_rails_app
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin <SSH URL from above>
+git remote add origin <https://github.com/Raghav-byte/my_first_rails_app.git>
+git remote add origin <git@github.com:Raghav-byte/my_first_rails_app.git>
+git remote add origin https://github.com/Raghav-byte/my_first_rails_app.git
+git push -u origin master
+curl https://cli-assets.heroku.com/install.sh | sh
+heroku version
+heroku keys:add
+heroku version
+heroku keys:add
+heroku create
+git remote
+ls 
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/Raghav-byte/my_first_rails_app.git
+git push -u origin master
+heroku create
+git remote
+ls
+code .
+cd '
+cd .
+ls
+s
+
+.
+.
+.
+.
+..
+'
+cd .
+ls
+code .

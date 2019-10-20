@@ -1,0 +1,6 @@
+[2019-10-20 18:05:48.120] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-10-20 18:05:48.140] [renderer1] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-10-20 18:07:27.652] [renderer1] [error] Error: [File Watcher (node.js)] Failed to watch /home/byte/.vscode for changes using fs.watch() (Error: ENOSPC: no space left on device, watch '/home/byte/.vscode')
+[2019-10-20 18:07:27.665] [renderer1] [error] [File Watcher (node.js)] Failed to watch /home/byte/.vscode for changes using fs.watch() (Error: ENOSPC: no space left on device, watch '/home/byte/.vscode')
+[2019-10-20 18:07:27.681] [renderer1] [error] Error: [File Watcher (node.js)] Failed to watch /home/byte/.config/Code/User/snippets for changes using fs.watch() (Error: ENOSPC: no space left on device, watch '/home/byte/.config/Code/User/snippets')
+[2019-10-20 18:07:27.696] [renderer1] [error] [File Watcher (node.js)] Failed to watch /home/byte/.config/Code/User/snippets for changes using fs.watch() (Error: ENOSPC: no space left on device, watch '/home/byte/.config/Code/User/snippets')
