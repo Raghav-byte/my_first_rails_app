@@ -96,3 +96,4 @@ s
 cd .
 ls
 code .
+run ruby

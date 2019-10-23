@@ -33,174 +33,39 @@ dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu
 dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
 
-(xfce4-session:1189): xfce4-session-WARNING **: 15:46:32.914: xfsm_manager_load_session: Something wrong with /home/byte/.cache/sessions/xfce4-session-byte-VirtualBox:0, Does it exist? Permissions issue?
+(xfce4-session:1202): xfce4-session-WARNING **: 20:07:21.113: xfsm_manager_load_session: Something wrong with /home/byte/.cache/sessions/xfce4-session-byte-VirtualBox:0, Does it exist? Permissions issue?
 
-(polkit-gnome-authentication-agent-1:1220): GLib-CRITICAL **: 15:46:33.379: g_variant_new_string: assertion 'string != NULL' failed
+(polkit-gnome-authentication-agent-1:1234): GLib-CRITICAL **: 20:07:21.595: g_variant_new_string: assertion 'string != NULL' failed
 
-(polkit-gnome-authentication-agent-1:1220): polkit-gnome-1-WARNING **: 15:46:33.381: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+(polkit-gnome-authentication-agent-1:1234): polkit-gnome-1-WARNING **: 20:07:21.600: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
 
-** (wrapper-2.0:1351): WARNING **: 15:46:34.627: No outputs have backlight property
+(xfsettingsd:1223): xfsettingsd-WARNING **: 20:07:23.685: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
 
-(wrapper-2.0:1341): GLib-GIO-CRITICAL **: 15:46:34.692: g_file_new_for_path: assertion 'path != NULL' failed
+(wrapper-2.0:1342): GLib-GIO-CRITICAL **: 20:07:24.722: g_file_new_for_path: assertion 'path != NULL' failed
 
-(wrapper-2.0:1341): GLib-GIO-CRITICAL **: 15:46:34.693: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+(wrapper-2.0:1342): GLib-GIO-CRITICAL **: 20:07:24.722: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
 
-(wrapper-2.0:1341): GLib-GObject-WARNING **: 15:46:34.693: invalid (NULL) pointer instance
+(wrapper-2.0:1342): GLib-GObject-WARNING **: 20:07:24.722: invalid (NULL) pointer instance
 
-(wrapper-2.0:1341): GLib-GObject-CRITICAL **: 15:46:34.695: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+(wrapper-2.0:1342): GLib-GObject-CRITICAL **: 20:07:24.722: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
 
-(wrapper-2.0:1341): Gtk-WARNING **: 15:46:34.695: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+(wrapper-2.0:1342): Gtk-WARNING **: 20:07:24.722: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
 
-(wrapper-2.0:1341): Gtk-WARNING **: 15:46:34.808: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+** (wrapper-2.0:1345): WARNING **: 20:07:24.732: No outputs have backlight property
 
-(wrapper-2.0:1355): Gtk-WARNING **: 15:46:34.883: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+(wrapper-2.0:1342): Gtk-WARNING **: 20:07:24.856: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 
-(wrapper-2.0:1338): Gtk-WARNING **: 15:46:34.915: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+(wrapper-2.0:1346): Gtk-WARNING **: 20:07:24.956: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
 
-(wrapper-2.0:1351): Gtk-WARNING **: 15:46:34.952: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+(wrapper-2.0:1331): Gtk-WARNING **: 20:07:25.072: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
 
-(nm-applet:1211): Gtk-WARNING **: 15:46:35.151: Can't set a parent on widget which has a parent
+(wrapper-2.0:1345): Gtk-WARNING **: 20:07:25.186: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(nm-applet:1224): Gtk-WARNING **: 20:07:25.358: Can't set a parent on widget which has a parent
 /usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
   from gi.repository import AppIndicator3 as girAppIndicator
 ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
-/var/lib/dpkg/lock: 
-javaldx: Could not find a Java Runtime Environment!
-Please ensure that a JVM and the package libreoffice-java-common
-is installed.
-If it is already installed then try removing ~/.libreoffice/3/user/config/javasettings_Linux_*.xml
-Warning: failed to read path from javaldx
-javaldx: Could not find a Java Runtime Environment!
-Please ensure that a JVM and the package libreoffice-java-common
-is installed.
-If it is already installed then try removing ~/.libreoffice/3/user/config/javasettings_Linux_*.xml
-Warning: failed to read path from javaldx
 
-(xfwm4:1200): xfwm4-WARNING **: 16:21:21.430: output size (983x600) and logical screen size (800x600) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:21.463: output size (983x600) and logical screen size (916x600) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:21.548: output size (1110x600) and logical screen size (916x600) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:21.565: output size (1110x600) and logical screen size (983x600) do not match
-
-** (xfdesktop:1208): CRITICAL **: 16:21:21.697: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:21.831: output size (1112x600) and logical screen size (1110x600) do not match
-
-** (xfdesktop:1208): CRITICAL **: 16:21:22.040: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-** (xfdesktop:1208): CRITICAL **: 16:21:22.040: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:22.116: output size (1252x600) and logical screen size (1112x600) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:22.184: output size (1257x600) and logical screen size (1252x600) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:22.327: output size (1257x600) and logical screen size (1252x600) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:22.353: output size (1259x600) and logical screen size (1252x600) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:22.389: output size (1259x600) and logical screen size (1257x600) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:26.042: output size (1259x738) and logical screen size (1259x600) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:26.203: output size (1259x766) and logical screen size (1259x738) do not match
-
-** (xfdesktop:1208): CRITICAL **: 16:21:26.339: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:27.005: output size (1259x940) and logical screen size (1259x766) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:29.636: output size (1797x940) and logical screen size (1259x940) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:30.557: output size (1881x940) and logical screen size (1797x940) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:31.030: output size (1889x940) and logical screen size (1881x940) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:31.038: output size (1889x940) and logical screen size (1884x940) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:31.213: output size (1895x940) and logical screen size (1884x940) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:31.220: output size (1895x940) and logical screen size (1889x940) do not match
-
-** (xfdesktop:1208): CRITICAL **: 16:21:31.518: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-** (xfdesktop:1208): CRITICAL **: 16:21:31.527: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-(xfwm4:1200): xfwm4-WARNING **: 16:21:33.446: output size (1920x950) and logical screen size (1895x940) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:23:36.152: output size (1895x815) and logical screen size (1920x950) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:23:37.387: output size (1895x791) and logical screen size (1895x815) do not match
-
-(xfce4-terminal:27680): Gdk-CRITICAL **: 16:32:33.054: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
-
-(xfwm4:1200): xfwm4-WARNING **: 16:48:06.131: output size (1895x730) and logical screen size (1895x791) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 16:48:06.798: output size (1895x691) and logical screen size (1895x730) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 17:47:41.182: output size (1549x691) and logical screen size (1895x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 17:47:41.242: output size (1153x691) and logical screen size (1549x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 17:47:41.310: output size (1009x691) and logical screen size (1153x691) do not match
-
-** (xfdesktop:1208): CRITICAL **: 17:47:41.347: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-** (xfdesktop:1208): CRITICAL **: 17:47:41.347: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-(xfwm4:1200): xfwm4-WARNING **: 17:47:41.597: output size (816x691) and logical screen size (1009x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 17:47:41.893: output size (592x691) and logical screen size (816x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 17:47:41.942: output size (567x691) and logical screen size (592x691) do not match
-
-** (xfdesktop:1208): CRITICAL **: 17:47:42.086: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-(xfwm4:1200): xfwm4-WARNING **: 17:47:42.124: output size (569x691) and logical screen size (567x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 17:47:42.151: output size (576x691) and logical screen size (569x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 17:47:42.235: output size (609x691) and logical screen size (576x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 17:47:42.382: output size (614x691) and logical screen size (609x691) do not match
-
-** (xfdesktop:1208): CRITICAL **: 17:47:42.530: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-** (xfdesktop:1208): CRITICAL **: 17:47:42.531: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-Gtk-Message: 18:02:14.852: GtkDialog mapped without a transient parent. This is discouraged.
-
-(xfwm4:1200): xfwm4-WARNING **: 18:02:42.527: output size (1239x691) and logical screen size (614x691) do not match
-[Parent 26005, Gecko_IOThread] WARNING: pipe error (116): Connection reset by peer: file /build/firefox-WlAST4/firefox-69.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
-
-(xfwm4:1200): xfwm4-WARNING **: 18:17:01.238: output size (916x691) and logical screen size (1239x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 18:17:01.274: output size (915x691) and logical screen size (916x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 18:17:01.439: output size (917x691) and logical screen size (915x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 18:17:01.495: output size (923x691) and logical screen size (917x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 18:17:01.579: output size (968x691) and logical screen size (923x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 18:17:01.720: output size (1055x691) and logical screen size (968x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 18:17:01.851: output size (1074x691) and logical screen size (1055x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 18:17:01.948: output size (1077x691) and logical screen size (1074x691) do not match
-
-** (xfdesktop:1208): CRITICAL **: 18:17:02.068: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-** (xfdesktop:1208): CRITICAL **: 18:17:02.069: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-** (xfdesktop:1208): CRITICAL **: 18:17:02.245: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-** (xfdesktop:1208): CRITICAL **: 18:17:02.273: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-** (xfdesktop:1208): CRITICAL **: 18:17:02.309: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-** (xfdesktop:1208): CRITICAL **: 18:17:02.328: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
-
-(xfwm4:1200): xfwm4-WARNING **: 18:17:05.008: output size (1080x691) and logical screen size (1077x691) do not match
-
-(xfwm4:1200): xfwm4-WARNING **: 18:17:05.410: output size (1105x691) and logical screen size (1080x691) do not match
+(xfce4-terminal:1436): Gdk-CRITICAL **: 20:09:35.585: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed

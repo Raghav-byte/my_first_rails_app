@@ -7,3 +7,11 @@
     at relogin (/usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:123:28)
     at /usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:162:18
     at processTicksAndRejections (internal/process/task_queues.js:86:5)
+2019-10-20T12:57:18.734Z Warning: ope is not a heroku command.
+2019-10-20T12:57:18.735Z     at Object.warn (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:33:15)
+2019-10-20T12:57:18.735Z     at Object.warn (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:115:42)
+2019-10-20T12:57:18.735Z     at Object.hook (/usr/local/lib/heroku/node_modules/@oclif/plugin-not-found/lib/index.js:25:10)
+2019-10-20T12:57:23.681Z Error: Run heroku help for a list of available commands.
+2019-10-20T12:57:23.681Z     at Object.error (/usr/local/lib/heroku/node_modules/@oclif/errors/lib/index.js:22:17)
+2019-10-20T12:57:23.681Z     at Object.error (/usr/local/lib/heroku/node_modules/@oclif/config/lib/config.js:113:30)
+2019-10-20T12:57:23.681Z     at Object.hook (/usr/local/lib/heroku/node_modules/@oclif/plugin-not-found/lib/index.js:39:10)
