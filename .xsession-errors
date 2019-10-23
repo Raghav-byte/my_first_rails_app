@@ -69,3 +69,31 @@ ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusExceptio
 ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
 
 (xfce4-terminal:1436): Gdk-CRITICAL **: 20:09:35.585: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+
+(xfwm4:1213): xfwm4-WARNING **: 20:18:39.876: output size (640x480) and logical screen size (1920x950) do not match
+
+(xfwm4:1213): xfwm4-WARNING **: 20:18:41.409: output size (919x480) and logical screen size (640x480) do not match
+
+(xfwm4:1213): xfwm4-WARNING **: 20:18:41.947: output size (1048x480) and logical screen size (919x480) do not match
+
+(xfwm4:1213): xfwm4-WARNING **: 20:18:42.001: output size (1050x480) and logical screen size (1048x480) do not match
+
+** (xfdesktop:1221): CRITICAL **: 20:18:42.623: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1213): xfwm4-WARNING **: 20:18:43.723: output size (1050x869) and logical screen size (1050x480) do not match
+
+(xfwm4:1213): xfwm4-WARNING **: 20:21:30.853: output size (1920x950) and logical screen size (1050x869) do not match
+
+(mousepad:1761): Gtk-WARNING **: 20:22:28.001: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:1761): Gtk-WARNING **: 20:22:28.001: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:1761): Gtk-WARNING **: 20:22:28.001: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:1761): Gtk-WARNING **: 20:22:28.002: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:1761): Gtk-WARNING **: 20:22:28.002: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+
+(xfwm4:1213): xfwm4-WARNING **: 20:22:58.721: output size (1050x869) and logical screen size (1920x950) do not match

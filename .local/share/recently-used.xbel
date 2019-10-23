@@ -33,4 +33,18 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/byte/hello_world.txt" added="2019-10-23T14:52:27Z" modified="2019-10-23T14:52:27Z" visited="2019-10-23T14:52:28Z">
+    <desc>Charset: UTF-8</desc>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>Mousepad</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Mousepad" exec="&apos;mousepad %u&apos;" modified="2019-10-23T14:52:27Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
